@@ -1,0 +1,40 @@
+body {
+  background-color: grey;
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  font-family: 'Montserrat', 'sans-serif';
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+}
+
+.wrapper {
+  height: fit-content;
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.div-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+
+.div-2 p {}
+
+#mainNumber p {
+  justify-content: space-between;
+  text-align: center;
+}
